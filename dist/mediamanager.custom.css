@@ -1,0 +1,318 @@
+/* Coolors Exported Palette - coolors.co/122c34-224870-2a4494-4ea5d9-44cfcb */
+/* HSL */
+/* RGB */
+.noselect,
+.mediamanager-wrapper .mediamanager__content-wrapper .mediamanager-content__items-wrapper .mediamanager__item {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body.\--mediamanager {
+    overflow: hidden;
+}
+
+.mediamanager-wrapper.\--active {
+    display: block;
+}
+
+.mediamanager-wrapper {
+    /* border: 1px solid #ddd; */
+    background: #FFF;
+    display: none;
+    margin: auto;
+    /* height: calc(100vh - 120px); */
+    overflow: hidden;
+    position: fixed;
+    top: 60px;
+    right: 60px;
+    bottom: 60px;
+    left: 60px;
+    /* width: 949px; */
+    z-index: 160000;
+}
+
+@media screen and (max-width: 768px) {
+    .mediamanager-wrapper {
+        right: 10px;
+        left: 10px;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .mediamanager-wrapper {
+        width: 768px;
+    }
+}
+
+.mediamanager-wrapper .mediamanager__content-wrapper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mediamanager-wrapper .group:before,
+/* .mediamanager-wrapper .mediamanager__header-wrapper:before, */
+.mediamanager-wrapper .mediamanager__header-wrapper .mediamanager-header__left-wrapper:before,
+.mediamanager-wrapper .mediamanager__content-wrapper .mediamanager-content__items-wrapper:before,
+.mediamanager-wrapper .group:after,
+/* .mediamanager-wrapper .mediamanager__header-wrapper:after, */
+.mediamanager-wrapper .mediamanager__header-wrapper .mediamanager-header__left-wrapper:after,
+.mediamanager-wrapper .mediamanager__content-wrapper .mediamanager-content__items-wrapper:after {
+    content: "";
+    display: table;
+}
+
+.mediamanager-wrapper .group:after,
+/* .mediamanager-wrapper .mediamanager__header-wrapper:after, */
+.mediamanager-wrapper .mediamanager__header-wrapper .mediamanager-header__left-wrapper:after,
+.mediamanager-wrapper .mediamanager__content-wrapper .mediamanager-content__items-wrapper:after {
+    clear: both;
+}
+
+.mediamanager-wrapper .group,
+.mediamanager-wrapper .mediamanager__header-wrapper,
+.mediamanager-wrapper .mediamanager__header-wrapper .mediamanager-header__left-wrapper,
+.mediamanager-wrapper .mediamanager__content-wrapper .mediamanager-content__items-wrapper {
+    zoom: 1;
+    /* For IE 6/7 (trigger hasLayout) */
+}
+
+.mediamanager-wrapper .mediamanager__header-wrapper {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mediamanager-wrapper .mediamanager__header-wrapper .mediamanager-header__left-wrapper {
+    float: left;
+}
+
+.mediamanager-wrapper .mediamanager__header-wrapper .mediamanager-header__left-wrapper .mediamanager-header-left__item {
+    background: #F0F0F0;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    color: #122c34;
+    float: left;
+    margin: 0 10px 0 0;
+    padding: 10px 15px;
+    position: relative;
+    bottom: -1px;
+}
+
+.mediamanager-wrapper .mediamanager__header-wrapper .mediamanager-header__left-wrapper .mediamanager-header-left__item.\--selected {
+    background: #FFF;
+    border-bottom: 1px solid #FFF;
+}
+
+.mediamanager-wrapper .mediamanager__header-wrapper .mediamanager-header__right-wrapper {
+    float: right;
+    /* padding: 0 30px 0 0; */
+}
+
+@media screen and (max-width: 480px) {
+    .mediamanager-wrapper .mediamanager__header-wrapper .mediamanager-header__right-wrapper {
+        display: none;
+    }
+}
+
+.mediamanager-wrapper .mediamanager__header-wrapper .mediamanager-header__right-wrapper .mediamanager-header-right__item-clear-selected {
+    cursor: pointer;
+    color: #4ea5d9;
+    font-size: 12px;
+}
+
+.mediamanager-header-right__item-clear-selected:hover {
+    text-decoration: underline;
+}
+
+.mediamanager-header__action-wrapper {
+    display: flex;
+}
+
+.mediamanager-header-action__refresh {
+    cursor: pointer;
+    padding: 11px 15px;
+}
+
+.mediamanager-header-action__refresh:hover {
+    background-color: #F0F0F0;
+}
+
+.mediamanager-wrapper .mediamanager__content-wrapper .mediamanager-content__items-wrapper {
+    box-sizing: border-box;
+    min-height: 300px;
+    max-height: calc(100vh - 120px - 55px - 20px - 60px);
+    overflow-y: scroll;
+    padding: 0 5px;
+}
+
+.mediamanager-wrapper .mediamanager__content-wrapper .mediamanager-content__items-wrapper .mediamanager__item {
+    display: flex;
+    border: 1px solid #0000001a;
+    cursor: pointer;
+    float: left;
+    height: 150px;
+    margin: 10px;
+    overflow: hidden;
+    /* padding: 4px; */
+    position: relative;
+    width: 150px;
+}
+
+.mediamanager-wrapper .mediamanager__content-wrapper .mediamanager-content__items-wrapper .mediamanager__item .mediamanager-item__filename-wrapper {
+    border-top: 1px solid #ddd;
+    background: rgba(255, 255, 255, 0.9);
+    font-size: 12px;
+    padding: 5px 9px 4px 9px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    word-wrap: break-word;
+}
+
+.mediamanager-wrapper .mediamanager__content-wrapper .mediamanager-content__items-wrapper .mediamanager__item .mediamanager-item__layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.mediamanager-wrapper .mediamanager__content-wrapper .mediamanager-content__items-wrapper .mediamanager__item .mediamanager-item__delete-button {
+    border: 1px solid #ddd;
+    background: rgba(255, 255, 255, 0.9);
+    display: none;
+    padding: 0 5px;
+    position: absolute;
+    top: 9px;
+    right: 9px;
+}
+
+.mediamanager-wrapper .mediamanager__content-wrapper .mediamanager-content__items-wrapper .mediamanager__item.\--selected {
+    border: 5px solid #2a4494;
+    padding: 0;
+}
+
+.mediamanager-wrapper .mediamanager__content-wrapper .mediamanager-content__items-wrapper .mediamanager__item.\--selected .mediamanager-item__filename-wrapper {
+    padding: 5px 5px 0 5px;
+}
+
+.mediamanager-wrapper .mediamanager__content-wrapper .mediamanager-content__items-wrapper .mediamanager__item.\--selected .mediamanager-item__delete-button {
+    display: block;
+    top: 5px;
+    right: 5px;
+}
+
+.mediamanager-wrapper .mediamanager__content-wrapper .mediamanager-content__items-wrapper .mediamanager__item img {
+    display: block;
+    /* height: auto; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* margin: auto; */
+}
+
+.mediamanager-wrapper .mediamanager__content-wrapper .mediamanager-content__items-wrapper .mediamanager__item.filetype img {
+    padding-top: 15px;
+}
+
+.mediamanager-wrapper .mediamanager__content-wrapper .mediamanager-content__footer-wrapper {
+    background: #FFF;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -moz-transition: bottom 0.5s;
+    -o-transition: bottom 0.5s;
+    -webkit-transition: bottom 0.5s;
+    transition: bottom 0.5s;
+}
+
+.mediamanager-wrapper .mediamanager__content-wrapper .mediamanager-content__footer-wrapper .mediamanager-content-footer__insert-to-post-button {
+    background: #3498db;
+    border: 0;
+    border-radius: 3px;
+    color: #FFF;
+    cursor: pointer;
+    /* display: inline-block; */
+    float: right;
+    padding: 8px 13px;
+    pointer-events: none;
+    text-shadow: 0 -1px 0 #0000001a;
+    color: #66c6e4;
+}
+
+.mediamanager-wrapper .mediamanager__content-wrapper .mediamanager-content__footer-wrapper .mediamanager-content-footer__insert-to-post-button:hover {
+    background: #196090;
+}
+
+.mediamanager-wrapper .mediamanager__content-wrapper .mediamanager-content__footer-wrapper.\--active .mediamanager-content-footer__insert-to-post-button {
+    pointer-events: auto;
+    color: white;
+    text-shadow: none;
+}
+
+.mediamanager-wrapper .mediamanager__content-wrapper .mediamanager-content__footer-wrapper .mediamanager-content-footer__close-button {
+    border: 0;
+    cursor: pointer;
+    /* display: inline-block; */
+    float: right;
+    padding: 8px 13px;
+    margin-right: 10px;
+}
+
+.mediamanager-wrapper .mediamanager__content-wrapper.\--hidden {
+    display: none;
+}
+
+.mediamanager-wrapper .mediamanager__upload-wrapper {
+    min-height: 345px;
+    height: calc(100vh - 120px - 55px);
+    position: relative;
+}
+
+.mediamanager-wrapper .mediamanager__upload-wrapper .dropzone {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.mediamanager-wrapper .mediamanager__upload-wrapper .dropzone .dz-message {
+    margin: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.mediamanager-wrapper .mediamanager__upload-wrapper.\--hidden {
+    display: none;
+}
+
+.backdrop-layer {
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 149999;
+}
+
+.backdrop-layer.\--active {
+    display: block;
+}
